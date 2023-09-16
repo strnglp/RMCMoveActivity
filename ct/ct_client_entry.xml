@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<template name="number_ct_activitypercent">
+		<basicnumber>
+			<anchored width="25" height="20" />
+		</basicnumber>
+	</template>
+
+	<windowclass name="client_ct_entry" merge="join">
+		<sheetdata>
+		<script file="ct/scripts/clientct_entry.lua" />
+			<number_ct_crosslink name="activitypercent" insertbefore="initresult" merge="join">
+				<tooltip textres="ct_tooltip_activity" />
+				<script>
+				function onInit()
+					if super and super.onInit then
+						super.onInit();
+					end
+					registerMenuItem("Add Move Activity", "addmove", 2); -- +move
+					registerMenuItem("Remove Move Activity", "removemove", 8); -- -move
+					registerMenuItem("+50 Activity", "plus50", 3); -- +50
+					registerMenuItem("-50 Activity", "minus50", 7); -- -50            
+				end
+
+				function onWheel(n)
+					if Input.isShiftPressed() then
+						local val = getValue();
+						setValue(val+n*10);
+						return true;
+					end
+					return super.onWheel(n);
+				end
+
+				function onMenuSelection(selection)
+					local val = getValue();
+					if selection == 3 then
+						setValue(val+50);
+					elseif selection == 7 then
+						setValue(val-50);
+					elseif selection == 2 then
+						local parent = getDatabaseNode().getParent();
+						local movepercent = DB.getValue(parent, "movepercent");
+						setValue(val+movepercent);
+						return true;			
+					elseif selection == 8 then
+						local parent = getDatabaseNode().getParent();
+						local movepercent = DB.getValue(parent, "movepercent");
+						setValue(val-movepercent);
+						return true;			
+					end
+					return false;
+				end
+				</script>
+			</number_ct_crosslink>
+		</sheetdata>
+	</windowclass>
+</root>

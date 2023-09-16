@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root version="3.0">
+  <announcement>Rolemaster Classic Movement Activity Enhancement</announcement>
+
+  <properties>
+    <name>Feature: RMC Move Activity</name>
+    <version>1.1.0</version>
+    <author>Eleazzar</author>
+    <description>Adds a right click menu to the Act % field in the combat tracker and Shift+Wheel for +/-10 increments.</description>
+    <ruleset>
+      <name>RolemasterClassic</name>
+    </ruleset>
+  </properties>
+
+  <base>
+    <!-- Graphics -->
+    <includefile source="graphics/graphics_radial.xml" />
+
+    <!-- Strings -->
+    <includefile source="strings/strings_RMC.xml" />
+
+    <!-- Combat Tracker -->
+    <includefile source="ct/ct_host_entry.xml" />
+
+  </base>
+</root>

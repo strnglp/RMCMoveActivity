@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+	<!-- Radial menu background and back slot -->
+	<icon name="menubackground" file="graphics/radial/menubackground.png" />
+	<icon name="menuhub" file="graphics/radial/menuhub.png" />
+	<icon name="menuback" file="graphics/radial/menuback.png" />
+
+	<!-- Desktop Radial options -->
+	<icon name="closeprogrammenu" file="graphics/radial/icon_closeprogrammenu.png" />
+	<icon name="closeprogram" file="graphics/radial/icon_closeprogram.png" />
+	<icon name="return" file="graphics/radial/icon_return.png" />
+	<icon name="restorewindow" file="graphics/radial/icon_restorewindow.png" />
+	<icon name="maximizewindow" file="graphics/radial/icon_maximizewindow.png" />
+	<icon name="arrangedice" file="graphics/radial/icon_arrangedice.png" />
+	<icon name="lockdice" file="graphics/radial/icon_lockdice.png" />
+	<icon name="unlockdice" file="graphics/radial/icon_unlockdice.png" />
+
+	<!-- Dice Radial options -->
+	<icon name="num2" file="graphics/radial/icon_num2.png" />
+	<icon name="num3" file="graphics/radial/icon_num3.png" />
+	<icon name="num4" file="graphics/radial/icon_num4.png" />
+	<icon name="num5" file="graphics/radial/icon_num5.png" />
+	<icon name="num10" file="graphics/radial/icon_num10.png" />
+	<icon name="num15" file="graphics/radial/icon_num15.png" />
+	<icon name="num20" file="graphics/radial/icon_num20.png" />
+	<icon name="percent" file="graphics/radial/icon_percent.png" />
+	<icon name="customdice" file="graphics/radial/icon_customdice.png" />
+	<icon name="verticaldice" file="graphics/radial/icon_verticaldice.png" />
+	<icon name="horizontaldice" file="graphics/radial/icon_horizontaldice.png" />
+
+	<!-- Hotkey Bar Radial options -->
+	<icon name="hotkeyclear" file="graphics/radial/icon_hotkeyclear.png" />
+	<icon name="hotkeyedit" file="graphics/radial/icon_hotkeyedit.png" />
+
+	<!-- Category Selection Control Radial options -->
+	<icon name="categoryinsert" file="graphics/radial/icon_categoryinsert.png" />
+	<icon name="categorydelete" file="graphics/radial/icon_categorydelete.png" />
+	<icon name="categorystyle" file="graphics/radial/icon_categorystyle.png" />
+	<icon name="categoryicon" file="graphics/radial/icon_categoryicon.png" />
+
+	<!-- Chat Window Radial options -->
+	<icon name="chatclipboard" file="graphics/radial/icon_chatclipboard.png" />
+	<icon name="crossed" file="graphics/radial/icon_crossed.png" />
+	<icon name="equals" file="graphics/radial/icon_equals.png" />
+	<icon name="halve" file="graphics/radial/icon_half.png" />
+	<icon name="double" file="graphics/radial/icon_num2.png" />
+	<icon name="negate" file="graphics/radial/icon_negate.png" />
+	<icon name="prompt" file="graphics/radial/icon_prompt.png" />
+	<icon name="hand" file="graphics/radial/icon_hand.png" />
+	<icon name="chatclear" file="graphics/radial/icon_chatclear.png" />
+	<icon name="log" file="graphics/radial/icon_log.png" />
+	<icon name="logoff" file="graphics/radial/icon_logoff.png" />
+
+	<!-- Die Control Radial options -->
+	<icon name="dieclear" file="graphics/radial/icon_dieclear.png" />
+
+	<!-- Formatted Text Control Radial options -->
+	<icon name="textnormal" file="graphics/radial/icon_textnormal.png" />
+	<icon name="textparagraphtypes" file="graphics/radial/icon_textparagraphtypes.png" />
+	<icon name="textbody" file="graphics/radial/icon_textbody.png" />
+	<icon name="texttitle" file="graphics/radial/icon_texttitle.png" />
+	<icon name="textlist" file="graphics/radial/icon_textlist.png" />
+	<icon name="textlink" file="graphics/radial/icon_textlink.png" />
+	<icon name="textchat" file="graphics/radial/icon_textchat.png" />
+	<icon name="assignspeaker" file="graphics/radial/icon_assignspeaker.png" />
+	<icon name="textformatting" file="graphics/radial/icon_textformatting.png" />
+	<icon name="bold" file="graphics/radial/icon_bold.png" />
+	<icon name="italics" file="graphics/radial/icon_italics.png" />
+	<icon name="underline" file="graphics/radial/icon_underline.png" />
+	<icon name="textstopedit" file="graphics/radial/icon_textstopedit.png" />
+	<icon name="textedit" file="graphics/radial/icon_textedit.png" />
+
+	<!-- Image Control Radial options -->
+	<icon name="shortcutdelete" file="graphics/radial/icon_shortcutdelete.png" />
+	<icon name="imageviewmenu" file="graphics/radial/icon_imageviewmenu.png" />
+	<icon name="broadcast" file="graphics/radial/icon_broadcast.png" />
+	<icon name="whisper" file="graphics/radial/icon_whisper.png" />
+	<icon name="send" file="graphics/radial/icon_send.png" />
+	<icon name="imageviewupdate" file="graphics/radial/icon_imageviewupdate.png" />
+	<icon name="imageviewsynch" file="graphics/radial/icon_imageviewsynch.png" />
+	<icon name="imageviewlock" file="graphics/radial/icon_imageviewlock.png" />
+	<icon name="imageviewunlock" file="graphics/radial/icon_imageviewunlock.png" />
+	<icon name="layers" file="graphics/radial/icon_layers.png" />
+	<icon name="goto" file="graphics/radial/icon_goto.png" />
+	<icon name="maskedit" file="graphics/radial/icon_maskedit.png" />
+	<icon name="maskeditoff" file="graphics/radial/icon_maskeditoff.png" />
+	<icon name="mask" file="graphics/radial/icon_mask.png" />
+	<icon name="deletemask" file="graphics/radial/icon_deletemask.png" />
+	<icon name="grid" file="graphics/radial/icon_grid.png" />
+	<icon name="gridhex" file="graphics/radial/icon_gridhex.png" />
+	<icon name="gridoff" file="graphics/radial/icon_gridoff.png" />
+	<icon name="gridchange" file="graphics/radial/icon_gridchange.png" />
+	<icon name="lockgrid" file="graphics/radial/icon_lockgrid.png" />
+	<icon name="unlockgrid" file="graphics/radial/icon_unlockgrid.png" />
+	<icon name="shortcutson" file="graphics/radial/icon_shortcutson.png" />
+	<icon name="shortcutsoff" file="graphics/radial/icon_shortcutsoff.png" />
+	<icon name="drawingmenu" file="graphics/radial/icon_drawingmenu.png" />
+	<icon name="lockdrawing" file="graphics/radial/icon_lockdrawing.png" />
+	<icon name="unlockdrawing" file="graphics/radial/icon_unlockdrawing.png" />
+	<icon name="eraselayer" file="graphics/radial/icon_eraselayer.png" />
+	<icon name="expanddrawing" file="graphics/radial/icon_expanddrawing.png" />
+	<icon name="expanddrawingup" file="graphics/radial/icon_expanddrawingup.png" />
+	<icon name="expanddrawingright" file="graphics/radial/icon_expanddrawingright.png" />
+	<icon name="expanddrawingdown" file="graphics/radial/icon_expanddrawingdown.png" />
+	<icon name="expanddrawingleft" file="graphics/radial/icon_expanddrawingleft.png" />
+	<icon name="drawingediton" file="graphics/radial/icon_drawingediton.png" />
+	<icon name="drawingeditoff" file="graphics/radial/icon_drawingeditoff.png" />
+	<icon name="erasestroke" file="graphics/radial/icon_erasestroke.png" />
+	<icon name="drawingstroke" file="graphics/radial/icon_drawingstroke.png" />
+	<icon name="pointer" file="graphics/radial/icon_pointer.png" />
+	<icon name="pointer_arrow" file="graphics/radial/icon_pointer_arrow.png" />
+	<icon name="pointer_cone" file="graphics/radial/icon_pointer_cone.png" />
+	<icon name="pointer_circle" file="graphics/radial/icon_pointer_circle.png" />
+	<icon name="pointer_square" file="graphics/radial/icon_pointer_square.png" />
+	<icon name="deletepointer" file="graphics/radial/icon_deletepointer.png" />
+	<icon name="deleteallpointers" file="graphics/radial/icon_deleteallpointers.png" />
+
+	<!-- Token Bag Control Radial options -->
+	<icon name="tokenbagclear" file="graphics/radial/icon_tokenbagclear.png" />
+	<icon name="tokenbaginsert" file="graphics/radial/icon_tokenbaginsert.png" />
+	<icon name="tokenbagdelete" file="graphics/radial/icon_tokenbagdelete.png" />
+	<icon name="arrangegrid" file="graphics/radial/icon_arrangegrid.png" />
+	<icon name="shuffle" file="graphics/radial/icon_shuffle.png" />
+	<icon name="tokenbagzoom" file="graphics/radial/icon_tokenbag_zoom_in.png" />
+	<icon name="tokenbagzoomout" file="graphics/radial/icon_tokenbag_zoom_out.png" />
+	<icon name="tokenbagreset" file="graphics/radial/icon_tokenbagreset.png" />
+
+	<icon name="tokenbagzoommenu" file="graphics/radial/icon_tokenbag_zoom.png" />
+	<icon name="assetviewnext" file="graphics/radial/icon_token_rotate_cw.png" />
+	<icon name="assetviewprev" file="graphics/radial/icon_token_rotate_ccw.png" />
+
+	<!-- Token Desktop Radial options -->
+	<icon name="deletetoken" file="graphics/radial/icon_deletetoken.png" />
+
+	<!-- Token Image Radial options -->
+	<icon name="tokenresetscale" file="graphics/radial/icon_token_scale_reset.png" />
+	<icon name="rotatecw" file="graphics/radial/icon_rotatecw.png" />
+	<icon name="rotateccw" file="graphics/radial/icon_rotateccw.png" />
+	<icon name="deletetoken" file="graphics/radial/icon_deletetoken.png" />
+	<icon name="deletealltokens" file="graphics/radial/icon_deletealltokens.png" />
+	<icon name="unlocktoken" file="graphics/radial/icon_unlocktoken.png" />
+	<icon name="locktoken" file="graphics/radial/icon_locktoken.png" />
+	<icon name="tokenacceptmove" file="graphics/radial/icon_tokenacceptmove.png" />
+	<icon name="lockzoom" file="graphics/radial/icon_lockzoom.png" />
+	<icon name="unlockzoom" file="graphics/radial/icon_unlockzoom.png" />
+	<icon name="tokenvisibility" file="graphics/radial/icon_tokenvisibility.png" />
+	<icon name="maskvisibility" file="graphics/radial/icon_maskvisibility.png" />
+	<!-- change to icon_maskvisibility.png -->
+	<icon name="lockvisibilityoff" file="graphics/radial/icon_lockvisibilityoff.png" />
+	<icon name="lockvisibilityon" file="graphics/radial/icon_lockvisibilityon.png" />
+
+	<!-- Window Instance Radial options -->
+	<icon name="windowclosemenu" file="graphics/radial/icon_windowclosemenu.png" />
+	<icon name="closeremote" file="graphics/radial/icon_closeremote.png" />
+	<icon name="close" file="graphics/radial/icon_close.png" />
+	<icon name="lock" file="graphics/radial/icon_lock.png" />
+	<icon name="unlock" file="graphics/radial/icon_unlock.png" />
+	<icon name="windowsizemenu" file="graphics/radial/icon_windowsizemenu.png" />
+	<icon name="minimize" file="graphics/radial/icon_minimize.png" />
+	<icon name="restore" file="graphics/radial/icon_restore.png" />
+	<icon name="windowsizereset" file="graphics/radial/icon_windowsizereset.png" />
+	<icon name="windowdelete" file="graphics/radial/icon_windowdelete.png" />
+	<icon name="windowshare" file="graphics/radial/icon_broadcast.png" />
+	<icon name="windowunshare" file="graphics/radial/icon_unshare.png" />
+	<icon name="windowexport" file="graphics/radial/icon_export.png" />
+
+	<!-- Window List Control Radial options -->
+	<icon name="insert" file="graphics/radial/icon_insert.png" />
+	<icon name="delete" file="graphics/radial/icon_delete.png" />
+	<icon name="listinsert" file="graphics/radial/icon_list_insert.png" />
+	<icon name="listdelete" file="graphics/radial/icon_list_delete.png" />
+	<icon name="new_ct_entry" file="graphics/radial/icon_new_ct_entry.png" />
+	<icon name="delete_ct_entry" file="graphics/radial/icon_delete_ct_entry.png" />
+	<icon name="new_attack" file="graphics/radial/icon_new_attack.png" />
+	<icon name="delete_attack" file="graphics/radial/icon_delete_attack.png" />
+	<icon name="new_defense" file="graphics/radial/icon_new_defense.png" />
+	<icon name="delete_defense" file="graphics/radial/icon_delete_defense.png" />
+	<icon name="new_effect" file="graphics/radial/icon_new_effect.png" />
+	<icon name="delete_effect" file="graphics/radial/icon_delete_effect.png" />
+
+	<!-- Table Results Radial options -->
+	<icon name="critA" file="graphics/radial/A.png" />
+	<icon name="critB" file="graphics/radial/B.png" />
+	<icon name="critC" file="graphics/radial/C.png" />
+	<icon name="critD" file="graphics/radial/D.png" />
+	<icon name="critE" file="graphics/radial/E.png" />
+	<icon name="CritLarge" file="graphics/radial/CritLarge.png" />
+	<icon name="CritSuperLarge" file="graphics/radial/CritSuperLarge.png" />
+	<icon name="CritNormal" file="graphics/radial/CritNormal.png" />
+	<icon name="CritMithril" file="graphics/radial/CritMithril.png" />
+	<icon name="CritHolyArms" file="graphics/radial/CritHolyArms.png" />
+	<icon name="CritMagic" file="graphics/radial/CritMagic.png" />
+	<icon name="CritSlaying" file="graphics/radial/CritSlaying.png" />
+	<icon name="critSpellNormal" file="graphics/radial/CritSpellNormal.png" />
+	<icon name="critSpellSlaying" file="graphics/radial/CritSpellSlaying.png" />
+	<icon name="alternateCrit" file="graphics/radial/alternateCrit.png" />
+	<icon name="additionalCrit" file="graphics/radial/additionalCrit.png" />
+	<icon name="clearCrits" file="graphics/radial/icon_clear_crits.png" />
+	<icon name="RRTable" file="graphics/radial/icon_rrtable.png" />
+	<icon name="fumble" file="graphics/radial/icon_fumble.png" />
+	<icon name="clearall" file="graphics/radial/icon_clearall.png" />
+	<icon name="clearstack" file="graphics/radial/icon_clearstack.png" />
+	<icon name="resolve" file="graphics/radial/icon_resolve.png" />
+
+	<!-- Combat Tracker Radial options -->
+	<icon name="initiative" file="graphics/radial/icon_initiative.png" />
+	<icon name="rollallinits" file="graphics/radial/icon_rollallinits.png" />
+	<icon name="rollnpcinits" file="graphics/radial/icon_rollnpcinits.png" />
+	<icon name="rollpcinits" file="graphics/radial/icon_rollpcinits.png" />
+	<icon name="clearallinits" file="graphics/radial/icon_clearallinits.png" />
+	<icon name="resetround" file="graphics/radial/icon_resetround.png" />
+	<icon name="delete_foes" file="graphics/radial/icon_delete_foes.png" />
+	<icon name="delete_nonfriendly" file="graphics/radial/icon_delete_nonfriendly.png" />
+	<icon name="cleartarget" file="graphics/radial/icon_cleartarget.png" />
+	<icon name="toggleid" file="graphics/radial/icon_toggleid.png" />
+	<icon name="rest" file="graphics/radial/icon_rest.png" />
+	<icon name="rest_1_hour" file="graphics/radial/icon_rest_1_hour.png" />
+	<icon name="rest_2_hours" file="graphics/radial/icon_rest_2_hours.png" />
+	<icon name="rest_4_hours" file="graphics/radial/icon_rest_4_hours.png" />
+	<icon name="rest_8_hours" file="graphics/radial/icon_rest_8_hours.png" />
+	<icon name="rest_12_hours" file="graphics/radial/icon_rest_12_hours.png" />
+	<icon name="rest_24_hours" file="graphics/radial/icon_rest_24_hours.png" />
+	<icon name="rest_remove" file="graphics/radial/icon_rest_remove.png" />
+	<icon name="rest_hits" file="graphics/radial/icon_rest_hits.png" />
+	<icon name="rest_hits_pp" file="graphics/radial/icon_rest_hits_pp.png" />
+	<icon name="rest_hits_effects" file="graphics/radial/icon_rest_hits_effects.png" />
+	<icon name="rest_hits_pp_effects" file="graphics/radial/icon_rest_hits_pp_effects.png" />
+	<icon name="rest_pp" file="graphics/radial/icon_rest_pp.png" />
+	<icon name="rest_pp_effects" file="graphics/radial/icon_rest_pp_effects.png" />
+	<icon name="rest_effects" file="graphics/radial/icon_rest_effects.png" />
+	<icon name="update_pc_ownership" file="graphics/radial/icon_update_pc_ownership.png" />
+
+	<!-- Image Sizing Radial options -->
+	<icon name="imagesize" file="graphics/radial/icon_resize.png" />
+	<icon name="imagesizesmall" file="graphics/radial/icon_smallsize.png" />
+	<icon name="imagesizeoriginal" file="graphics/radial/icon_originalsize.png" />
+	<icon name="imagesizevertical" file="graphics/radial/icon_verticalsize.png" />
+	<icon name="imagesizehorizontal" file="graphics/radial/icon_horizontalsize.png" />
+
+	<!-- Grouping Radial options -->
+	<icon name="ungroup" file="graphics/radial/icon_ungroup.png" />
+	<icon name="group" file="graphics/radial/icon_group.png" />
+
+	<!-- RMDice Radial options -->
+	<icon name="dicecloseended" file="graphics/radial/icon_dicecloseended.png" />
+	<icon name="diceopenended" file="graphics/radial/icon_diceopenended.png" />
+	<icon name="dicehighopenended" file="graphics/radial/icon_dicehighopenended.png" />
+
+	<!-- Misc Radial options -->
+	<icon name="texttable" file="graphics/radial/icon_texttable.png" />
+	<icon name="texttableh" file="graphics/radial/icon_texttableh.png" />
+	<icon name="stopedit" file="graphics/radial/icon_stopedit.png" /> 
+	<icon name="sort" file="graphics/radial/icon_sort.png" />
+	<!-- Need multiple separate ones -->
+	<icon name="bell" file="graphics/radial/icon_bell.png" />
+	<icon name="turn" file="graphics/radial/icon_turn.png" />
+	<icon name="portrait" file="graphics/radial/icon_portrait.png" />
+	<icon name="kick" file="graphics/radial/icon_kick.png" />
+	<icon name="kickconfirm" file="graphics/radial/icon_kickconfirm.png" />
+	<icon name="export" file="graphics/radial/icon_export.png" />
+	<icon name="edit" file="graphics/radial/icon_edit.png" />
+	<icon name="erase" file="graphics/radial/icon_erase.png" />
+	<icon name="activate" file="graphics/radial/icon_activate.png" />
+	<icon name="release" file="graphics/radial/icon_release.png" />
+	<icon name="clearowner" file="graphics/radial/icon_clearowner.png" />
+	<icon name="setowner" file="graphics/radial/icon_setowner.png" />
+	<icon name="removeidentity" file="graphics/radial/icon_removeidentity.png" />
+	<icon name="removeallidentities" file="graphics/radial/icon_removeallidentities.png" />
+	<icon name="revertchanges" file="graphics/radial/icon_revertchanges.png" />
+	<icon name="unshare" file="graphics/radial/icon_unshare.png" />
+	<icon name="resettokenscale" file="graphics/radial/icon_resettokenscale.png" />
+	<icon name="award_xp" file="graphics/radial/icon_award_xp.png" />
+
+	<icon name="blank" file="graphics/radial/blank.png" />
+
+	<!-- JV START -->
+		<icon name="addmove" file="graphics/radial/icon_addmove.png" />
+		<icon name="removemove" file="graphics/radial/icon_removemove.png" />
+		<icon name="plus50" file="graphics/radial/icon_plus50.png" />
+		<icon name="minus50" file="graphics/radial/icon_minus50.png" />
+	<!-- JV END -->
+
+</root>
